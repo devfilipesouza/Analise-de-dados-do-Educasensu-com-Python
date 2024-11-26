@@ -1,2 +1,5 @@
-# devfilipesouza-Analise-de-dados-do-Educasensu-com-Python
-Projeto em Python desenvolvido sob orientação do prof. Joseff Evangelista da turma de "Tópico de Big Data" na Faculdade Estácio de Sá.
+# Big Data - Análise de dados do Educasensu com Python
+
+Neste projeto foi possível desenvolver um dashboard interativo para visualização gráfica, que compare o uso da tecnologia durante os anos de 2020 a 2023, com base nos dados do Educasensu disponíveis através do portal de dados abertos do Ministério da Educação do Brasil. Esse filtro permitie uma análise das instituições que possuem a infraestrutura tecnológica disponível aos usuários inseridos dentro da educação básica nos estados da região Nordeste, Norte e Sudeste do país.
+A aplicação de dashboards foi desenvolvida em linguagem de programação Python, utilizando IDE Vscode junto com integração de biblioteca Pandas. A coleta dos dados foi realizada através do Portal de Dados abertos do Ministério da Educação dos anos de 2020 a 2023, ao qual apresentava os micro dados coletados de pesquisa em Excel. O tratamento dos dados, ocorreu dentro da própria plataforma do Excel, realizando a filtragem dos dados necessários e sendo exportados em arquivo CSV a qual foram importados para o SGBD MySQL Workbench, para armazenamento e leitura de tabelas e dados. Quanto a apresentação dos dados em gráficos comparativos e evolutivos, foi utilizada integração com biblioteca Streamlit, Plotly e MySQLConnector ao qual, possibilitou a visualização dos dados em formato gráfico.
+
